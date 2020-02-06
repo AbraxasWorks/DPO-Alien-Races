@@ -1,0 +1,35 @@
+<Patch>
+
+	<!--=== Kurin pawns are now tougher to kill ===-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Orassans</li>
+			<li>Orassans Lite</li>
+		</mods>	
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+			<!--Race Unique Parts-->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/BodyPartDef[defName="OTail"]/hitPoints</xpath>
+					<value>
+						<hitPoints>20</hitPoints>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/BodyPartDef[defName="RightHandClaws"]/hitPoints</xpath>
+					<value>
+						<hitPoints>10</hitPoints>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/BodyPartDef[defName="LeftHandClaws"]/hitPoints</xpath>
+					<value>
+						<hitPoints>10</hitPoints>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

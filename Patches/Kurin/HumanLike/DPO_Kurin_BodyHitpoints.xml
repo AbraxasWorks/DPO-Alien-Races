@@ -1,0 +1,28 @@
+<Patch>
+
+	<!--=== Kurin pawns are now tougher to kill ===-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Kurin, The Three Tailed Fox</li>
+		</mods>	
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+			<!--Race Unique Parts-->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/BodyPartDef[defName="DRNTF_Tail"]/hitPoints</xpath>
+					<value>
+						<hitPoints>25</hitPoints>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/BodyPartDef[defName="DRNTF_Ear"]/hitPoints</xpath>
+					<value>
+						<hitPoints>13</hitPoints>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
