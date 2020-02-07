@@ -1,0 +1,21 @@
+<Patch>
+
+	<!--=== Kijin pawns are special ===-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Kijin Race</li>
+		</mods>	
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "KIJIN_Race"]/race/baseHealthScale</xpath>
+					<value>
+						<baseHealthScale>1.3</baseHealthScale>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>

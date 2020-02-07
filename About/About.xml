@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>DocPawnOverhaul-AlienRaces</name>
+	<name>DPO-Alien-Races</name>
 	<author>Abraxas</author>
 	<url></url>
 	<supportedVersions>
@@ -17,5 +17,7 @@ The goal of this mod is to make pawns feel damage. I found inspiration in [VE-CO
 - Animals are slightly more robust
 - Bionics and Armor become far more important
 - Completely save-friendly to add or remove as you wish
+
+For Alien Races
 	</description>
 </ModMetaData>
