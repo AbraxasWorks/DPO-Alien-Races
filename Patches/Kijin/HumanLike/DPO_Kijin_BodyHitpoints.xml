@@ -1,24 +1,6 @@
 <Patch>
 
-	<!--=== Kurin pawns are now tougher to kill ===-->
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Kijin Race 2.0</li>
-		</mods>	
-		<match Class="PatchOperationSequence">
-			<success>Normal</success>
-			<operations>
-			<!--Race Unique Parts-->
-				<li Class="PatchOperationReplace">
-					<xpath>/Defs/BodyPartDef[defName="Kijin_Horn"]/hitPoints</xpath>
-					<value>
-						<hitPoints>55</hitPoints>
-					</value>
-				</li>
-			</operations>
-		</match>
-	</Operation>
-	
+	<!--=== Kijin pawns are now tougher to kill ===-->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Kijin Race</li>

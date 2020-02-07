@@ -1,21 +1,22 @@
 <Patch>
 
-	<!--=== Kijin pawns are special ===-->
+	<!--=== Kijin pawns are now tougher to kill ===-->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Kijin Race</li>
+			<li>Kijin Race 2.0</li>
 		</mods>	
 		<match Class="PatchOperationSequence">
 			<success>Normal</success>
 			<operations>
+			<!--Race Unique Parts-->
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "KIJIN_Race"]/race/baseHealthScale</xpath>
+					<xpath>/Defs/BodyPartDef[defName="Kijin_Horn"]/hitPoints</xpath>
 					<value>
-						<baseHealthScale>1.3</baseHealthScale>
+						<hitPoints>55</hitPoints>
 					</value>
 				</li>
 			</operations>
 		</match>
 	</Operation>
-	
+
 </Patch>
