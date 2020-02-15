@@ -1,0 +1,14 @@
+This mod is not needed but works better for balance. 
+
+Some Races such as Drow use the Human Body and do not need a patch.
+
+
+List of Race mods Patched :
+Kijin
+Kijin 2.0
+Kurin
+Orassans
+
+
+List of Race mods that do not need a patch :
+Drow
